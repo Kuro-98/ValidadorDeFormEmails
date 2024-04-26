@@ -88,13 +88,14 @@ document.addEventListener('DOMContentLoaded', () => {
 		if (e.target.id === 'cc' && !validarEmail(e.target.value)) {
 			mostrarAlerta('El email no es valido', e.target.parentElement, 'error');
 			email[e.target.id] = '';
-			comprobarEmail();
+			btnSumit.classList.add('opacity-50');
+			btnSumit.disabled = true;
 			return;
 		}
 		if (e.target.id === 'cc' && e.target.id !== '') {
 			email.cc = e.target.value;
+			comprobarEmail();
 		}
-		console.log(email);
 
 		limpiarAlerta(e.target.parentElement);
 	}
