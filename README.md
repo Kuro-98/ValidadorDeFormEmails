@@ -13,7 +13,7 @@ Proyecto web desarrollado con JavaScript para validar y enviar formularios de co
 
 - **JavaScript:** Lógica principal para la validación del formulario y el envío de correos.
 - **HTML y CSS:** Estructura básica y estilos mínimos para la presentación del formulario.
-- **Expresiones Regulares:** Empleadas para validar el formato de correos electrónicos.
+- **Expresiones Regulares:** Empleadas para validar el formato de correos electrónicos..
 
 ## Instrucciones de Despliegue
 
