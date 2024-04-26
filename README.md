@@ -17,5 +17,5 @@ Proyecto web desarrollado con JavaScript para validar y enviar formularios de co
 
 ## Instrucciones de Despliegue
 
-1. Clona este repositorio: `git clone https://github.com/tu-usuario/validador-formulario-correo.git`
+1. Clona este repositorio: `git clone git@github.com:Kuro-98/ValidadorDeFormEmails.git`
 2. Abre el archivo `index.html` en tu navegador favorito.
